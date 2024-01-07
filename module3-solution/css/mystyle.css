@@ -1,0 +1,90 @@
+/* Base styles */
+* {
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.navbar {
+  width: 100%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-style: solid;
+  border-top-width: 4px;
+  border-bottom-width: 4px;
+  background-color: #CCCCCC;
+}
+
+.nav-item {
+  background-color: #EFEFEF;
+  width: 100%;
+  border-style: solid;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+}
+
+#categoryHeader {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.container-fluid {
+  padding: 0px;
+}
+
+.navbar-toggler  {
+  border: 1px solid black;
+}
+
+#menuButton {
+  margin: 25px;
+  float: right;
+}
+
+#main-content {
+  padding: 25px;
+}
+
+.container {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: #CCCCCC;
+  width: 100%;
+}
+
+.navbar-brand a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-brand h1 {
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0px;
+  margin-left: 25px;
+  margin-right: auto;
+  line-height: .75; 
+  padding: 25px;
+}
+
+.nav-header {
+  width: 100%;
+}
+
+.content {
+  background-color: #CCCCCC;
+  margin-top: 25px;
+}
+
+.heading {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+.text {
+  margin: 10px;
+}
